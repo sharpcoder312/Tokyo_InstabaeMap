@@ -136,12 +136,11 @@ function createMap () {
         lng: 139.7047913
       },
       iconImage: "./icons/marker1.png",
-      content: `<div style='width:520px; height:520px;'>
-      <a style='display:inline-block; width:250px; height:250px;' href="https://www.instagram.com/p/CKr27nHLhy2/" target="_blank> <img style='width:250px; height:250px;' src="images/1.jpg"/> </a>
-      <img style='width:250px; height:250px;' src="images/2.jpg">
-      <img style='width:250px; height:250px;' src="images/3.jpg">
-      <img style='width:250px; height:250px;' src="images/4.jpg">
-      </div>`
+      content: 
+      `<div style='display: flex; align-items: center; width:500px; height:200px; padding-left:10px;'><div style="margin-right: 5vh; ">
+      <a href="https://www.instagram.com/explore/tags/%E3%83%81%E3%83%BC%E3%82%BA%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89/" target="_blank">
+      <img style="display: inline-block; width:20vh; height:20vh; border-radius:50%;" src="./images/chst1.jpg" alt="チーズスタンド"/></a></div>
+      <div style='position: reletive; bottom: 10px'><a href="https://cheese-stand.com/" target="_blank" style='margin: 0; font-size: 25px; text-decoration: none;'>#チーズスタンド</a><p>주소 : 1 Chome-16-11 Tomigaya, Shibuya City, Tokyo 151-0063 일본</p><p>운영 시간 : 오전 11시 ~ 오후 8시</p><p>전화번호 : +81 3-3481-0884</p></div></div>`
     },
     {
       location: {
@@ -172,13 +171,23 @@ function createMap () {
 
     marker.addListener("click", () => {
       detailWindow.open(map, marker);
+      setBounce(marker);
     })
+
     return marker
   }
   const markerCluster = new MarkerClusterer(map, gmarkers, {
     imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'
   });
 }
+
+function setBounce(marker) {
+  marker.setAnimation(google.maps.Animation.BOUNCE);
+  setTimeout((function() {
+    marker.setAnimation(null);
+  }).bind(marker), 1400);
+}
+
 
 google.maps.event.addDomListener(window, 'load', initMap);
 
