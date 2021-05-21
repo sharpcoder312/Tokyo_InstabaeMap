@@ -220,6 +220,45 @@ function createMap () {
       <div style='position: reletive; bottom: 10px'><a href="http://connelcoffee.jp/" target="_blank" style='margin: 0; font-size: 25px; text-decoration: none;'>#コーネルコーヒー</a><p>주소 : 일본 〒107-0052 Tokyo, Minato City, Akasaka, 7 Chome−2−21, Sōgetsu Hall, 2階</p><p>운영 시간 : 오전 10시 ~ 오후 6시(주말 휴무)</p><p>전화번호 : +81 3-6434-0192</p></div></div>`
       // 코네루커피 コーネル
     },
+    {
+      location: {
+        lat: 35.6655863,
+        lng: 139.6929491,
+      },
+      iconImage: "./icons/marker1.png",
+      content: 
+      `<div style='display: flex; align-items: center; width:500px; height:200px; padding-left:10px;'><div style="margin-right: 5vh; ">
+      <a href="https://www.instagram.com/explore/tags/thelattetokyo/?hl=ja" target="_blank">
+      <img style="display: inline-block; width:20vh; height:20vh; border-radius:50%;" src="./images/thelatte.jpg" alt="THE LATTE TOKYO"/></a></div>
+      <div style='position: reletive; bottom: 10px'><a href="https://linktr.ee/thelattetokyo" target="_blank" style='margin: 0; font-size: 25px; text-decoration: none;'>#THE LATTE TOKYO</a><p>주소 : 3-3 Kamiyamacho, Shibuya City, Tokyo 150-0047 일본</p><p>운영 시간 : 오전 8시 ~ 오후 7시(주말 10~18시)</p><p>전화번호 : +81 3-6416-8298</p></div></div>`
+      // 더 라떼 커피 THE LATTE TOKYO
+    },
+    {
+      location: {
+        lat: 35.6668317,
+        lng: 139.6924029,
+      },
+      iconImage: "./icons/marker1.png",
+      content: 
+      `<div style='display: flex; align-items: center; width:500px; height:200px; padding-left:10px;'><div style="margin-right: 5vh; ">
+      <a href="https://www.instagram.com/explore/tags/%E3%83%9C%E3%83%B3%E3%83%80%E3%82%A4%E3%82%AB%E3%83%95%E3%82%A7/?hl=ja" target="_blank">
+      <img style="display: inline-block; width:20vh; height:20vh; border-radius:50%;" src="./images/bondi.jpg" alt="Bondi Cafe"/></a></div>
+      <div style='position: reletive; bottom: 10px'><a href="http://bondicafe.net/bondi-cafe-yoyogi-beach-park/" target="_blank" style='margin: 0; font-size: 25px; text-decoration: none;'>#Bondi Cafe</a><p>주소 : 일본 〒151-0063 Tokyo, Shibuya City, Tomigaya, 1 Chome−15−2 バルビゾン５５ 1F</p><p>운영 시간 : 오전 9시 ~ 오후 8시</p><p>전화번호 : +81 3-5790-9998</p></div></div>`
+      // 본디 커피 bondi
+    },
+    {
+      location: {
+        lat: 35.6655554,
+        lng: 139.6922187,
+      },
+      iconImage: "./icons/marker1.png",
+      content: 
+      `<div style='display: flex; align-items: center; width:500px; height:200px; padding-left:10px;'><div style="margin-right: 5vh; ">
+      <a href="https://www.instagram.com/explore/tags/camelbacktokyo/?hl=ja" target="_blank">
+      <img style="display: inline-block; width:20vh; height:20vh; border-radius:50%;" src="./images/camel.jpg" alt="CAMELBACK"/></a></div>
+      <div style='position: reletive; bottom: 10px'><a href="https://camelback.tokyo/" target="_blank" style='margin: 0; font-size: 25px; text-decoration: none;'>#CAMELBACK Sandwich</a><p>주소 : 42-2 Kamiyamacho, Shibuya City, Tokyo 150-0047 일본</p><p>운영 시간 : 오전 9시 ~ 오후 6시</p><p>전화번호 : +81 3-6407-0069</p></div></div>`
+      // 카멜백 camelback
+    },
   ]
 
   // Loop through marker
