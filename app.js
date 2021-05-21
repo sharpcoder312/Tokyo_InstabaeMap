@@ -135,7 +135,7 @@ function createMap () {
         lat: 35.6666425,
         lng: 139.6914441
       },
-      iconImage: "./icons/marker1.png",
+      iconImage: "./icons/cafe.png",
       content: 
       `<div style='display: flex; align-items: center; width:500px; height:200px; padding-left:10px;'><div style="margin-right: 5vh; ">
       <a href="https://www.instagram.com/explore/tags/%E3%83%81%E3%83%BC%E3%82%BA%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89/" target="_blank">
@@ -147,7 +147,7 @@ function createMap () {
         lat: 35.6431782,
         lng: 139.6980374,
       },
-      iconImage: "./icons/marker1.png",
+      iconImage: "./icons/cafe.png",
       content: 
       `<div style='display: flex; align-items: center; width:500px; height:200px; padding-left:10px;'><div style="margin-right: 5vh; ">
       <a href="https://www.instagram.com/explore/tags/%E3%82%AA%E3%83%8B%E3%83%90%E3%82%B9%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC/" target="_blank">
@@ -160,7 +160,7 @@ function createMap () {
         lat: 35.6720937,
         lng: 139.6906045,
       },
-      iconImage: "./icons/marker1.png",
+      iconImage: "./icons/cafe.png",
       content: 
       `<div style='display: flex; align-items: center; width:500px; height:200px; padding-left:10px;'><div style="margin-right: 5vh; ">
       <a href="https://www.instagram.com/explore/tags/littlenapcoffeestand/" target="_blank">
@@ -173,7 +173,7 @@ function createMap () {
         lat: 35.6677177,
         lng: 139.6838773,
       },
-      iconImage: "./icons/marker1.png",
+      iconImage: "./icons/cafe.png",
       content: 
       `<div style='display: flex; align-items: center; width:500px; height:200px; padding-left:10px;'><div style="margin-right: 5vh; ">
       <a href="https://www.instagram.com/explore/tags/%E3%83%AA%E3%83%88%E3%83%AB%E3%83%8A%E3%83%83%E3%83%97%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC%E3%83%AD%E3%83%BC%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%BA/" target="_blank">
@@ -186,7 +186,7 @@ function createMap () {
         lat: 35.6676216,
         lng: 139.7060224,
       },
-      iconImage: "./icons/marker1.png",
+      iconImage: "./icons/cafe.png",
       content: 
       `<div style='display: flex; align-items: center; width:500px; height:200px; padding-left:10px;'><div style="margin-right: 5vh; ">
       <a href="https://www.instagram.com/explore/tags/honeymihoneycafe/" target="_blank">
@@ -199,7 +199,7 @@ function createMap () {
         lat: 35.651085,
         lng: 139.7245727,
       },
-      iconImage: "./icons/marker1.png",
+      iconImage: "./icons/cafe.png",
       content: 
       `<div style='display: flex; align-items: center; width:500px; height:200px; padding-left:10px;'><div style="margin-right: 5vh; ">
       <a href="https://www.instagram.com/_nem_coffee_espresso//" target="_blank">
@@ -212,7 +212,7 @@ function createMap () {
         lat: 35.6740435,
         lng: 139.7293852,
       },
-      iconImage: "./icons/marker1.png",
+      iconImage: "./icons/cafe.png",
       content: 
       `<div style='display: flex; align-items: center; width:500px; height:200px; padding-left:10px;'><div style="margin-right: 5vh; ">
       <a href="https://www.instagram.com/explore/tags/connelcoffee/" target="_blank">
@@ -225,7 +225,7 @@ function createMap () {
         lat: 35.6655863,
         lng: 139.6929491,
       },
-      iconImage: "./icons/marker1.png",
+      iconImage: "./icons/cafe.png",
       content: 
       `<div style='display: flex; align-items: center; width:500px; height:200px; padding-left:10px;'><div style="margin-right: 5vh; ">
       <a href="https://www.instagram.com/explore/tags/thelattetokyo/?hl=ja" target="_blank">
@@ -238,7 +238,7 @@ function createMap () {
         lat: 35.6668317,
         lng: 139.6924029,
       },
-      iconImage: "./icons/marker1.png",
+      iconImage: "./icons/cafe.png",
       content: 
       `<div style='display: flex; align-items: center; width:500px; height:200px; padding-left:10px;'><div style="margin-right: 5vh; ">
       <a href="https://www.instagram.com/explore/tags/%E3%83%9C%E3%83%B3%E3%83%80%E3%82%A4%E3%82%AB%E3%83%95%E3%82%A7/?hl=ja" target="_blank">
@@ -251,7 +251,7 @@ function createMap () {
         lat: 35.6655554,
         lng: 139.6922187,
       },
-      iconImage: "./icons/marker1.png",
+      iconImage: "./icons/cafe.png",
       content: 
       `<div style='display: flex; align-items: center; width:500px; height:200px; padding-left:10px;'><div style="margin-right: 5vh; ">
       <a href="https://www.instagram.com/explore/tags/camelbacktokyo/?hl=ja" target="_blank">
