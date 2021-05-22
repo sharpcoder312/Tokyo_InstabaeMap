@@ -786,7 +786,7 @@ function createMap () {
       },
       iconImage: "./icons/default.png",
       content: 
-      `<div style='display: flex; align-items: center; width:80vh; height:27vh; padding-left:1.5vh; font-family:Helvetica Neue'><div style="margin-right: 5vh; ">
+      `<div style='display: flex; align-items: center; width:80vh; height:27vh; padding-left:1.5vh; font-family:Helvetica Neue;'><div style="margin-right: 5vh; ">
       <a href="https://www.instagram.com/explore/tags/%E4%BB%A3%E5%AE%98%E5%B1%B1/" target="_blank">
       <img style="display: inline-block; width:20vh; height:20vh; border-radius:50%;" src="./images/dai.jpg" alt="代官山"/></a></div>
       <div style='position: reletive;'><a href="https://www.gotokyo.org/jp/destinations/western-tokyo/daikanyama/index.html" target="_blank" style='margin: 0; font-size: 1.8em; text-decoration: none;'>#代官山</a><p>주소 : 〒150-0034 도쿄도 시부야구</p><p>다이칸야마는 브루클린 느낌이 나는 스타일리시한 지역으로 수제 맥줏집, 커피 로스터, 고급 델리가 위치해 있습니다. 이곳에서는 디자이너 패션과 고급 액세서리 쇼핑을 즐길 수 있으며 갤러리이자 칵테일 바로도 운영되는 서점을 만나볼 수 있습니다.</p></div></div>`

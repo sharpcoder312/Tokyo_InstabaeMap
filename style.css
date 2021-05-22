@@ -14,7 +14,7 @@ body {
 #search {
   font-family: 'Gothic A1', serif;
   position: relative; 
-  width: 350px; 
+  width: 99%; 
   height: 45px; 
   margin-top: 10px; 
   margin-bottom: 20px; 
@@ -50,15 +50,7 @@ body {
 }
 
 @media screen and (min-width: 768px) {
-  #search {
-    font-family: 'Gothic A1', serif;
-    position: relative; 
-    width: 99%; 
-    height: 45px; 
-    margin-top: 10px; 
-    margin-bottom: 20px; 
-    font-size: 25px;
-  }
+
 
   .markerInfo {
     flex-direction: row;
