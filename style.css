@@ -1,3 +1,67 @@
+body {
+  font-family: 'Gothic A1', serif
+}
+
 #map {
   height: 500px;
+  margin-bottom: 8px;
 }
+
+#search {
+  font-family: 'Gothic A1', serif
+}
+
+.information {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.markerInfo {
+  display: flex;
+  flex-direction: column;
+  margin-right: 8px;
+  font-weight: 500;
+}
+
+.markerInfo img {
+  padding-left: 4px;
+  margin-right: 5px;
+  width: 22px;
+  height: 33px;
+}
+
+.markerInfo.two img {
+  padding-left: 12px;
+}
+
+.markerInfo.three img {
+  padding-left: 31px;
+}
+
+@media screen and (min-width: 768px) {
+  .markerInfo {
+    flex-direction: row;
+  }
+
+  .markerInfo img {
+    margin-right: 5px;
+    width: 33px;
+    height: 44px;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  * {
+    font-size: 13px;
+  }
+  
+  .markerInfo.two img {
+    padding-left: 8px;
+  }
+  
+  .markerInfo.three img {
+    padding-left: 23px;
+  }
+}
+
