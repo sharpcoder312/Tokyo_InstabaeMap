@@ -2,13 +2,23 @@ body {
   font-family: 'Gothic A1', serif
 }
 
+.map-position {
+  text-align: center;
+}
+
 #map {
   height: 500px;
   margin-bottom: 8px;
 }
 
 #search {
-  font-family: 'Gothic A1', serif
+  font-family: 'Gothic A1', serif;
+  position: relative; 
+  width: 350px; 
+  height: 45px; 
+  margin-top: 10px; 
+  margin-bottom: 20px; 
+  font-size: 25px;
 }
 
 .information {
@@ -40,6 +50,16 @@ body {
 }
 
 @media screen and (min-width: 768px) {
+  #search {
+    font-family: 'Gothic A1', serif;
+    position: relative; 
+    width: 99%; 
+    height: 45px; 
+    margin-top: 10px; 
+    margin-bottom: 20px; 
+    font-size: 25px;
+  }
+
   .markerInfo {
     flex-direction: row;
   }
