@@ -389,6 +389,71 @@ function createMap () {
       <div style='position: reletive; bottom: 10px'><a href="https://en.japantravel.com/tokyo/shibuya-crossing/3016" target="_blank" style='margin: 0; font-size: 25px; text-decoration: none;'>#渋谷スクランブル交差点</a><p>주소 : 1 Chome-2-1 Dogenzaka, Shibuya City, Tokyo 150-0043 일본</p><p>도쿄의 상징적인 랜드마크 시부야 스크램블 교차로에서 한번에 1,000명 이상이 도로를 건너는 광경을 구경하세요. 도쿄 인구 최다 밀집지역을 카메라에 담을 수 있는 시부야의 대표 포토 스팟</p></div></div>`
       // 시부야 교차로 
     },
+    {
+      location: {
+        lat: 35.6763976,
+        lng: 139.6993259
+      },
+      iconImage: "./icons/museums.png",
+      content: 
+      `<div style='display: flex; align-items: center; width:500px; height:200px; padding-left:10px;'><div style="margin-right: 5vh; ">
+      <a href="https://www.instagram.com/explore/tags/%E6%98%8E%E6%B2%BB%E7%A5%9E%E5%AE%AE/" target="_blank">
+      <img style="display: inline-block; width:20vh; height:20vh; border-radius:50%;" src="./images/meiji2.jpg" alt="明治神宮"/></a></div>
+      <div style='position: reletive; bottom: 10px'><a href="https://www.meijijingu.or.jp/" target="_blank" style='margin: 0; font-size: 25px; text-decoration: none;'>#明治神宮</a><p>주소 : 1-1 Yoyogikamizonocho, Shibuya City, Tokyo 151-8557 일본</p><p>운영 시간 : 오전 5시 ~ 오후 6시 10분</p><p>전화번호 : +81 3-3379-5511</p></div></div>`
+      // 메이지 신사
+    },
+    {
+      location: {
+        lat: 35.7200104,
+        lng: 139.7607541
+      },
+      iconImage: "./icons/museums.png",
+      content: 
+      `<div style='display: flex; align-items: center; width:500px; height:200px; padding-left:10px;'><div style="margin-right: 5vh; ">
+      <a href="https://www.instagram.com/explore/tags/%E6%A0%B9%E6%B4%A5%E7%A5%9E%E7%A4%BE/" target="_blank">
+      <img style="display: inline-block; width:20vh; height:20vh; border-radius:50%;" src="./images/nedu2.jpg" alt="根津神社"/></a></div>
+      <div style='position: reletive; bottom: 10px'><a href="http://www.nedujinja.or.jp/" target="_blank" style='margin: 0; font-size: 25px; text-decoration: none;'>#根津神社</a><p>주소 : 1 Chome-28-9 Nezu, Bunkyo City, Tokyo 113-0031 일본</p><p>운영 시간 : 오전 6시 ~ 오후 4시 30분</p><p>전화번호 : +81 3-3822-0753</p></div></div>`
+      // 네즈 신사
+    },
+    {
+      location: {
+        lat: 35.6746667,
+        lng: 139.7399445
+      },
+      iconImage: "./icons/museums.png",
+      content: 
+      `<div style='display: flex; align-items: center; width:500px; height:200px; padding-left:10px;'><div style="margin-right: 5vh; ">
+      <a href="https://www.instagram.com/explore/tags/%E6%97%A5%E6%9E%9D%E7%A5%9E%E7%A4%BE/" target="_blank">
+      <img style="display: inline-block; width:20vh; height:20vh; border-radius:50%;" src="./images/hie.png" alt="日枝神社"/></a></div>
+      <div style='position: reletive; bottom: 10px'><a href="https://www.hiejinja.net/index.html" target="_blank" style='margin: 0; font-size: 25px; text-decoration: none;'>#日枝神社</a><p>주소 : 2 Chome-10-5 Nagatachō, Chiyoda City, Tokyo 100-0014 일본</p><p>운영 시간 : 오전 6시 ~ 오후 5시</p><p>전화번호 : +81 3-3581-2471</p></div></div>`
+      // 히에 신사
+    },
+    {
+      location: {
+        lat: 35.6488126,
+        lng: 139.647585
+      },
+      iconImage: "./icons/museums.png",
+      content: 
+      `<div style='display: flex; align-items: center; width:500px; height:200px; padding-left:10px;'><div style="margin-right: 5vh; ">
+      <a href="https://www.instagram.com/explore/tags/gotokujitemple/" target="_blank">
+      <img style="display: inline-block; width:20vh; height:20vh; border-radius:50%;" src="./images/gotokuji.jpg" alt="豪徳寺"/></a></div>
+      <div style='position: reletive; bottom: 10px'><a href="https://gotokuji.jp/" target="_blank" style='margin: 0; font-size: 25px; text-decoration: none;'>#豪徳寺</a><p>주소 : 2 Chome-24-7 Gotokuji, Setagaya City, Tokyo 154-0021 일본</p><p>운영 시간 : 오전 6시 ~ 오후 5시(임시 휴업중)</p><p>전화번호 : +81 3-3426-1437</p></div></div>`
+      // 고토쿠지
+    },
+    {
+      location: {
+        lat: 35.7147651,
+        lng: 139.7967613
+      },
+      iconImage: "./icons/museums.png",
+      content: 
+      `<div style='display: flex; align-items: center; width:500px; height:200px; padding-left:10px;'><div style="margin-right: 5vh; ">
+      <a href="https://www.instagram.com/explore/tags/%E6%B5%85%E8%8D%89%E5%AF%BA/" target="_blank">
+      <img style="display: inline-block; width:20vh; height:20vh; border-radius:50%;" src="./images/sensoji.jpg" alt="浅草寺"/></a></div>
+      <div style='position: reletive; bottom: 10px'><a href="https://www.senso-ji.jp/" target="_blank" style='margin: 0; font-size: 25px; text-decoration: none;'>#浅草寺</a><p>주소 : 2 Chome-3-1 Asakusa, Taito City, Tokyo 111-0032 일본</p><p>운영 시간 : 오전 6시 ~ 오후 5시</p><p>전화번호 : +81 3-3842-0181</p></div></div>`
+      // 센소지
+    },
   ]
 
   // Loop through marker
