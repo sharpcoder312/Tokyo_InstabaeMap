@@ -454,6 +454,163 @@ function createMap () {
       <div style='position: reletive; bottom: 10px'><a href="https://www.senso-ji.jp/" target="_blank" style='margin: 0; font-size: 25px; text-decoration: none;'>#浅草寺</a><p>주소 : 2 Chome-3-1 Asakusa, Taito City, Tokyo 111-0032 일본</p><p>운영 시간 : 오전 6시 ~ 오후 5시</p><p>전화번호 : +81 3-3842-0181</p></div></div>`
       // 센소지
     },
+    {
+      location: {
+        lat: 35.6865016,
+        lng: 139.6970264
+      },
+      iconImage: "./icons/restaurants.png",
+      content: 
+      `<div style='display: flex; align-items: center; width:500px; height:200px; padding-left:10px;'><div style="margin-right: 5vh; ">
+      <a href="https://www.instagram.com/explore/tags/%E3%81%86%E3%81%A9%E3%82%93%E6%85%8E/" target="_blank">
+      <img style="display: inline-block; width:20vh; height:20vh; border-radius:50%;" src="./images/udonsin.jpg" alt="うどん 慎"/></a></div>
+      <div style='position: reletive; bottom: 10px'><a href="https://www.udonshin.com/" target="_blank" style='margin: 0; font-size: 25px; text-decoration: none;'>#うどん 慎</a><p>주소 : 일본 〒151-0053 Tokyo, Shibuya City, Yoyogi, 2 Chome−20−16 相馬ビル １F</p><p>운영 시간 : 오전 11시 ~ 오후 8시</p><p>전화번호 : +81 3-6276-7816</p></div></div>`
+      // 우동신
+    },
+    {
+      location: {
+        lat: 35.6465322,
+        lng: 139.6928018
+      },
+      iconImage: "./icons/restaurants.png",
+      content: 
+      `<div style='display: flex; align-items: center; width:500px; height:200px; padding-left:10px;'><div style="margin-right: 5vh; ">
+      <a href="https://www.instagram.com/explore/tags/higashiyamatokyo/" target="_blank">
+      <img style="display: inline-block; width:20vh; height:20vh; border-radius:50%;" src="./images/higashi.jpg" alt="HIGASHI-YAMA Tokyo"/></a></div>
+      <div style='position: reletive; bottom: 10px'><a href="https://higashiyama-tokyo.jp/" target="_blank" style='margin: 0; font-size: 25px; text-decoration: none;'>#HIGASHI-YAMA Tokyo</a><p>주소 : 1 Chome-21-25 Higashiyama, Meguro City, Tokyo 153-0043 일본</p><p>임시 휴업 중</p><p>전화번호 : +81 3-5720-1300</p></div></div>`
+      // 히가시야마
+    },
+    {
+      location: {
+        lat: 35.6902676,
+        lng: 139.7064013
+      },
+      iconImage: "./icons/restaurants.png",
+      content: 
+      `<div style='display: flex; align-items: center; width:500px; height:200px; padding-left:10px;'><div style="margin-right: 5vh; ">
+      <a href="https://www.instagram.com/explore/tags/%E3%82%82%E3%81%A8%E6%9D%91/" target="_blank">
+      <img style="display: inline-block; width:20vh; height:20vh; border-radius:50%;" src="./images/motomura.jpg" alt="牛かつもと村"/></a></div>
+      <div style='position: reletive; bottom: 10px'><a href="https://www.gyukatsu-motomura.com/" target="_blank" style='margin: 0; font-size: 25px; text-decoration: none;'>#牛かつもと村</a><p>주소 : 2 Chome-2 Shinjuku, Shinjuku City, Tokyo 160-0022 일본 </p><p>운영 시간 : 오전 11시 ~ 오후 11시</p><p>전화번호 : +81 3-3354-0171</p></div></div>`
+      // 모토무라 1
+    },
+    {
+      location: {
+        lat: 35.6663971,
+        lng: 139.7560212
+      },
+      iconImage: "./icons/restaurants.png",
+      content: 
+      `<div style='display: flex; align-items: center; width:500px; height:200px; padding-left:10px;'><div style="margin-right: 5vh; ">
+      <a href="https://www.instagram.com/explore/tags/%E3%82%82%E3%81%A8%E6%9D%91/" target="_blank">
+      <img style="display: inline-block; width:20vh; height:20vh; border-radius:50%;" src="./images/motomura2.jpg" alt="牛かつもと村"/></a></div>
+      <div style='position: reletive; bottom: 10px'><a href="https://www.gyukatsu-motomura.com/" target="_blank" style='margin: 0; font-size: 24px; text-decoration: none;'>#牛かつもと村 (신바시점)</a><p>주소 : 일본 〒105-0004 Tokyo, Minato City, Shinbashi, 2 Chome−15−13, Elegance.Bld., B1F</p><p>운영 시간 : 오전 11시 ~ 오후 9시</p><p>전화번호 : +81 3-3593-2229</p></div></div>`
+      // 모토무라 2
+    },
+    {
+      location: {
+        lat: 35.68687,
+        lng: 139.7750558
+      },
+      iconImage: "./icons/restaurants.png",
+      content: 
+      `<div style='display: flex; align-items: center; width:500px; height:200px; padding-left:10px;'><div style="margin-right: 5vh; ">
+      <a href="https://www.instagram.com/explore/tags/%E3%82%82%E3%81%A8%E6%9D%91/" target="_blank">
+      <img style="display: inline-block; width:20vh; height:20vh; border-radius:50%;" src="./images/motomura2.jpg" alt="牛かつもと村"/></a></div>
+      <div style='position: reletive; bottom: 10px'><a href="https://www.gyukatsu-motomura.com/" target="_blank" style='margin: 0; font-size: 22px; text-decoration: none;'>#牛かつもと村 (무라마치점)</a><p>주소 : 일본 〒103-0022 Tokyo, Chuo City, Nihonbashimuromachi, 2 Chome−3−1 ２ 地下1階 B18号室 コレド室町</p><p>운영 시간 : 오전 11시 ~ 오후 8시</p><p>전화번호 : +81 3-3273-5121</p></div></div>`
+      // 모토무라 3
+    },
+    {
+      location: {
+        lat: 35.6570237,
+        lng: 139.7039568
+      },
+      iconImage: "./icons/restaurants.png",
+      content: 
+      `<div style='display: flex; align-items: center; width:500px; height:200px; padding-left:10px;'><div style="margin-right: 5vh; ">
+      <a href="https://www.instagram.com/explore/tags/%E3%82%82%E3%81%A8%E6%9D%91/" target="_blank">
+      <img style="display: inline-block; width:20vh; height:20vh; border-radius:50%;" src="./images/motomura4.jpg" alt="牛かつもと村"/></a></div>
+      <div style='position: reletive; bottom: 10px'><a href="https://www.gyukatsu-motomura.com/" target="_blank" style='margin: 0; font-size: 22px; text-decoration: none;'>#牛かつもと村 (시부야점)</a><p>주소 : 일본 〒150-0002 Tokyo, Shibuya City, Shibuya, 3 Chome−18−10 2号館地下1階 大野ビル</p><p>운영 시간 : 오전 11시 ~ 오후 11시</p><p>전화번호 : +81 3-3797-3735</p></div></div>`
+      // 모토무라 4
+    },
+    {
+      location: {
+        lat: 35.6655431,
+        lng: 139.7105646
+      },
+      iconImage: "./icons/restaurants.png",
+      content: 
+      `<div style='display: flex; align-items: center; width:500px; height:200px; padding-left:10px;'><div style="margin-right: 5vh; ">
+      <a href="https://www.instagram.com/explore/tags/%E8%8C%B6%E6%B4%92%E9%87%91%E7%94%B0%E4%B8%AD/" target="_blank">
+      <img style="display: inline-block; width:20vh; height:20vh; border-radius:50%;" src="./images/sasya3.jpg" alt="茶洒 金田中"/></a></div>
+      <div style='position: reletive; bottom: 10px'><a href="http://www.kanetanaka.co.jp/restrant/sahsya/" target="_blank" style='margin: 0; font-size: 25px; text-decoration: none;'>#茶洒 金田中</a><p>주소 : 3 Chome-6-1 Kitaaoyama, Minato City, Tokyo 107-0061 일본</p><p>운영 시간 : 오전 11시 30분 ~ 오후 10시</p><p>전화번호 : +81 3-6450-5116</p></div></div>`
+      // 사샤
+    },
+    {
+      location: {
+        lat: 35.6955676,
+        lng: 139.6986518
+      },
+      iconImage: "./icons/restaurants.png",
+      content: 
+      `<div style='display: flex; align-items: center; width:500px; height:200px; padding-left:10px;'><div style="margin-right: 5vh; ">
+      <a href="https://www.instagram.com/explore/tags/%E9%BA%BA%E5%B1%8B%E6%AD%A6%E8%94%B5/" target="_blank">
+      <img style="display: inline-block; width:20vh; height:20vh; border-radius:50%;" src="./images/menya.jpg" alt="麺屋武蔵"/></a></div>
+      <div style='position: reletive; bottom: 10px'><a href="https://menya634.co.jp/storelist/shinjuku/?lang=ko" target="_blank" style='margin: 0; font-size: 25px; text-decoration: none;'>#麺屋武蔵 (본점)</a><p>주소 : 일본 〒160-0023 Tokyo, Shinjuku City, Nishishinjuku, 7 Chome−2−6 西新宿Ｋ－１ビル 1F</p><p>운영 시간 : 오전 11시 ~ 오후 10시</p><p>전화번호 : +81 3-3363-4634</p></div></div>`
+      // 멘야무사시 본점
+    },
+    {
+      location: {
+        lat: 35.7190704,
+        lng: 139.9263643
+      },
+      iconImage: "./icons/restaurants.png",
+      content: 
+      `<div style='display: flex; align-items: center; width:500px; height:200px; padding-left:10px;'><div style="margin-right: 5vh; ">
+      <a href="https://www.instagram.com/explore/tags/%E5%91%B3%E6%A5%BD%E4%BA%AD/" target="_blank">
+      <img style="display: inline-block; width:20vh; height:20vh; border-radius:50%;" src="./images/mirak2.jpg" alt="味楽亭"/></a></div>
+      <div style='position: reletive; bottom: 10px'><a href="https://mirakutei-motoyawata.gorp.jp/" target="_blank" style='margin: 0; font-size: 25px; text-decoration: none;'>#味 楽 亭(야키니쿠 전문)</a><p>주소 : 일본 〒272-0023 Chiba, Ichikawa, Minamiyawata, 4 Chome−8−2 エスフォート本八幡 1F</p><p>운영 시간 : 오후 5시 ~ 오후 10시</p><p>전화번호 : +81 47-377-2941</p></div></div>`
+      // 미락정
+    },
+    {
+      location: {
+        lat: 35.6710627,
+        lng: 139.7050782
+      },
+      iconImage: "./icons/restaurants.png",
+      content: 
+      `<div style='display: flex; align-items: center; width:500px; height:200px; padding-left:10px;'><div style="margin-right: 5vh; ">
+      <a href="https://www.instagram.com/santamonicacrepes/" target="_blank">
+      <img style="display: inline-block; width:20vh; height:20vh; border-radius:50%;" src="./images/santa.jpg" alt="Santa monica Crepes"/></a></div>
+      <div style='position: reletive; bottom: 10px'><a href="http://santamonica.jp/" target="_blank" style='margin: 0; font-size: 25px; text-decoration: none;'>#Santa monica Crepes</a><p>주소 : 1 Chome-16-16-8 Jingumae, Shibuya City, Tokyo 150-0001 일본</p><p>운영 시간 : 오전 10시 ~ 오후 9시</p><p>전화번호 : +81 3-3804-5139</p></div></div>`
+      // 산타모니카
+    },
+    {
+      location: {
+        lat: 35.6710227,
+        lng: 139.7050982
+      },
+      iconImage: "./icons/restaurants.png",
+      content: 
+      `<div style='display: flex; align-items: center; width:500px; height:200px; padding-left:10px;'><div style="margin-right: 5vh; ">
+      <a href="https://www.instagram.com/explore/tags/angelcrepes/" target="_blank">
+      <img style="display: inline-block; width:20vh; height:20vh; border-radius:50%;" src="./images/heart.jpg" alt="Angel Crepes"/></a></div>
+      <div style='position: reletive; bottom: 10px'><a href="" target="_blank" style='margin: 0; font-size: 25px; text-decoration: none;'>#Angel Crepes</a><p>주소 : 1 Chome-16-9 Jingumae, Shibuya City, Tokyo 150-0001 일본</p><p>운영 시간 : 오전 10시 ~ 오후 9시</p><p>전화번호 : +81 3-6804-5139</p></div></div>`
+      // 엔젤하트
+    },
+    {
+      location: {
+        lat: 35.642781,
+        lng: 139.6689434
+      },
+      iconImage: "./icons/restaurants.png",
+      content: 
+      `<div style='display: flex; align-items: center; width:500px; height:200px; padding-left:10px;'><div style="margin-right: 5vh; ">
+      <a href="https://www.instagram.com/explore/tags/%E4%B8%89%E8%A7%92%E5%9C%B0%E5%B8%AF/" target="_blank">
+      <img style="display: inline-block; width:20vh; height:20vh; border-radius:50%;" src="./images/three.jpg" alt="三角地帯"/></a></div>
+      <div style='position: reletive; bottom: 10px'><a href="https://tokyocheapo.com/restaurant/sankaku-chitai/" target="_blank" style='margin: 0; font-size: 25px; text-decoration: none;'>#三角地帯</a><p>주소 : 2 Chome-13-9 Sangenjaya, Setagaya City, Tokyo 154-0024 일본</p><p>일명 '삼색지대'라고 불리는 이곳. 싸고 매력적인 추천 음식점들이 정말 많습니다. 술을 좋아하는 사람은 한 번 들어가면 좀처럼 나올 수 없는 그런 산겐 자야에 있는 술집거리의 매력에 빠져보세요!</p></div></div>`
+      // 삼색지대
+    },
+
   ]
 
   // Loop through marker
@@ -481,9 +638,9 @@ function createMap () {
 
     return marker
   }
-  const markerCluster = new MarkerClusterer(map, gmarkers, {
-    imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'
-  });
+  // const markerCluster = new MarkerClusterer(map, gmarkers, {
+  //   imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'
+  // });
 }
 
 function setBounce(marker) {
