@@ -259,6 +259,136 @@ function createMap () {
       <div style='position: reletive; bottom: 10px'><a href="https://camelback.tokyo/" target="_blank" style='margin: 0; font-size: 25px; text-decoration: none;'>#CAMELBACK Sandwich</a><p>주소 : 42-2 Kamiyamacho, Shibuya City, Tokyo 150-0047 일본</p><p>운영 시간 : 오전 9시 ~ 오후 6시</p><p>전화번호 : +81 3-6407-0069</p></div></div>`
       // 카멜백 camelback
     },
+    {
+      location: {
+        lat: 35.68698,
+        lng: 139.73845,
+      },
+      iconImage: "./icons/cafe.png",
+      content: 
+      `<div style='display: flex; align-items: center; width:500px; height:200px; padding-left:10px;'><div style="margin-right: 5vh; ">
+      <a href="https://www.instagram.com/explore/tags/natadecristiano/" target="_blank">
+      <img style="display: inline-block; width:20vh; height:20vh; border-radius:50%;" src="./images/nata.jpg" alt="ナタ・デ・クリスチアノ"/></a></div>
+      <div style='position: reletive; bottom: 10px'><a href="http://www.cristianos.jp/nata/" target="_blank" style='margin: 0; font-size: 25px; text-decoration: none;'>#ナタ・デ・クリスチアノ</a><p>주소 : 일본 〒151-0063 Tokyo, Shibuya City, 渋谷区Tomigaya, 1 Chome−14−16 スタンフォードコート</p><p>운영 시간 : 오전 10시 ~ 오후 7시 30분</p><p>전화번호 : +81 3-6804-9723</p></div></div>`
+      // 나타 데 크리스티아노
+    },
+    {
+      location: {
+        lat: 35.6691043,
+        lng: 139.6900557,
+      },
+      iconImage: "./icons/cafe.png",
+      content: 
+      `<div style='display: flex; align-items: center; width:500px; height:200px; padding-left:10px;'><div style="margin-right: 5vh; ">
+      <a href="https://www.instagram.com/explore/tags/afterhourscafe/" target="_blank">
+      <img style="display: inline-block; width:20vh; height:20vh; border-radius:50%;" src="./images/after.jpg" alt="Afterhours"/></a></div>
+      <div style='position: reletive; bottom: 10px'><a href="https://afterhours.jp/shop/" target="_blank" style='margin: 0; font-size: 25px; text-decoration: none;'>#Afterhours</a><p>주소 : 1 Chome-7-9 Tomigaya, Shibuya City, Tokyo 151-0063 일본</p><p>운영 시간 : 오후 12시 ~ 오후 5시</p><p>임시휴업 중</p></div></div>`
+      // 애프터하우스
+    },
+    {
+      location: {
+        lat: 35.6585805,
+        lng: 139.7453389,
+      },
+      iconImage: "./icons/photography.png",
+      content: 
+      `<div style='display: flex; align-items: center; width:500px; height:200px; padding-left:10px;'><div style="margin-right: 5vh; ">
+      <a href="https://www.instagram.com/explore/tags/%E6%9D%B1%E4%BA%AC%E3%82%BF%E3%83%AF%E3%83%BC/" target="_blank">
+      <img style="display: inline-block; width:20vh; height:20vh; border-radius:50%;" src="./images/tower.jpg" alt="東京タワー"/></a></div>
+      <div style='position: reletive; bottom: 10px'><a href="https://www.tokyotower.co.jp/" target="_blank" style='margin: 0; font-size: 25px; text-decoration: none;'>#東京タワー</a><p>주소 : 4 Chome-2-8 Shibakoen, Minato City, Tokyo 105-0011 일본</p><p>임시 휴업중</p><p>전화번호 : +81 3-3433-5111</p></div></div>`
+      // 도쿄타워
+    },
+    {
+      location: {
+        lat: 35.6722448,
+        lng: 139.7624187,
+      },
+      iconImage: "./icons/photography.png",
+      content: 
+      `<div style='display: flex; align-items: center; width:500px; height:200px; padding-left:10px;'><div style="margin-right: 5vh; ">
+      <a href="https://www.instagram.com/explore/tags/%E6%9D%B1%E4%BA%AC%E3%82%BF%E3%83%AF%E3%83%BC/" target="_blank">
+      <img style="display: inline-block; width:20vh; height:20vh; border-radius:50%;" src="./images/plaza.jpg" alt="東急プラザ銀座"/></a></div>
+      <div style='position: reletive; bottom: 10px'><a href="https://ginza.tokyu-plaza.com/" target="_blank" style='margin: 0; font-size: 25px; text-decoration: none;'>#東急プラザ 銀座</a><p>주소 : 5 Chome-2-1 Ginza, Chuo City, Tokyo 104-0061 일본</p><p>운영 시간 : 오전 11시 ~ 오후 8시</p><p>전화번호 : +81 3-3571-0109</p></div></div>`
+      // 도쿄프라자
+    },
+    {
+      location: {
+        lat: 35.7100627,
+        lng: 139.8107004,
+      },
+      iconImage: "./icons/photography.png",
+      content: 
+      `<div style='display: flex; align-items: center; width:500px; height:200px; padding-left:10px;'><div style="margin-right: 5vh; ">
+      <a href="https://www.instagram.com/explore/tags/%E6%9D%B1%E4%BA%AC%E3%82%B9%E3%82%AB%E3%82%A4%E3%83%84%E3%83%AA%E3%83%BC/" target="_blank">
+      <img style="display: inline-block; width:20vh; height:20vh; border-radius:50%;" src="./images/sky.jpg" alt="東京スカイツリー"/></a></div>
+      <div style='position: reletive; bottom: 10px'><a href="https://www.tokyo-skytree.jp/" target="_blank" style='margin: 0; font-size: 25px; text-decoration: none;'>#東京スカイツリー</a><p>주소 : 1 Chome-1-2 Oshiage, Sumida City, Tokyo 131-0045 일본</p><p>임시 휴업중</p><p>전화번호 : +81 570-550-634</p></div></div>`
+      // 스카이트리
+    },
+    {
+      location: {
+        lat: 35.7153358,
+        lng: 139.7739818,
+      },
+      iconImage: "./icons/photography.png",
+      content: 
+      `<div style='display: flex; align-items: center; width:500px; height:200px; padding-left:10px;'><div style="margin-right: 5vh; ">
+      <a href="https://www.instagram.com/explore/tags/%E4%B8%8A%E9%87%8E%E5%85%AC%E5%9C%92/" target="_blank">
+      <img style="display: inline-block; width:20vh; height:20vh; border-radius:50%;" src="./images/ueno.jpg" alt="上野公園"/></a></div>
+      <div style='position: reletive; bottom: 10px'><a href="https://www.kensetsu.metro.tokyo.lg.jp/jimusho/toubuk/ueno/kouenannai.html" target="_blank" style='margin: 0; font-size: 25px; text-decoration: none;'>#上野公園</a><p>주소 : 일본 〒110-0007 Tokyo, Taito City, Uenokoen, 8, ５−２０・池之端三丁目</p><p>운영 시간 : 오전 5시 ~ 오후 11시</p><p>전화번호 : +81 3-3828-5644</p></div></div>`
+      // 우에노 공원
+    },
+    {
+      location: {
+        lat: 35.7099344,
+        lng: 139.8091915
+      },
+      iconImage: "./icons/photography.png",
+      content: 
+      `<div style='display: flex; align-items: center; width:500px; height:200px; padding-left:10px;'><div style="margin-right: 5vh; ">
+      <a href="https://www.instagram.com/explore/tags/%E3%81%99%E3%81%BF%E3%81%A0%E6%B0%B4%E6%97%8F%E9%A4%A8/" target="_blank">
+      <img style="display: inline-block; width:20vh; height:20vh; border-radius:50%;" src="./images/suimida.jpg" alt="すみだ水族館"/></a></div>
+      <div style='position: reletive; bottom: 10px'><a href="https://www.sumida-aquarium.com/index.html" target="_blank" style='margin: 0; font-size: 25px; text-decoration: none;'>#すみだ水族館</a><p>주소 : 일본 〒131-0045 Tokyo, Sumida City, Oshiage, 1 Chome−1−2 東京スカイツリータウン・ソラマチ 5-6F</p><p>임시 휴업중</p><p>전화번호 : +81 3-5619-1821</p></div></div>`
+      // 스미다 수족관
+    },
+    {
+      location: {
+        lat: 35.6958427,
+        lng: 139.7030554
+      },
+      iconImage: "./icons/photography.png",
+      content: 
+      `<div style='display: flex; align-items: center; width:500px; height:200px; padding-left:10px;'><div style="margin-right: 5vh; ">
+      <a href="https://www.instagram.com/explore/tags/%E6%AD%8C%E8%88%9E%E4%BC%8E%E7%94%BA%E4%B8%80%E7%95%AA%E8%A1%97/" target="_blank">
+      <img style="display: inline-block; width:20vh; height:20vh; border-radius:50%;" src="./images/kabuki.jpg" alt="歌舞伎町"/></a></div>
+      <div style='position: reletive; bottom: 10px'><a href="" target="_blank" style='margin: 0; font-size: 25px; text-decoration: none;'>#歌舞伎町(Kabukicho)</a><p>주소 : 〒160-0021 도쿄도 신주쿠구</p><p>가부키쵸는 밤문화를 즐기기 위한 스폿이 수많이 존재하며, 거리가 밤부터 활기를 띄어서 사람들이 「잠들지 않는 거리」라고 부르고 있습니다.</p></div></div>`
+      // 가부키초
+    },
+    {
+      location: {
+        lat: 35.7187449,
+        lng: 139.7960771
+      },
+      iconImage: "./icons/photography.png",
+      content: 
+      `<div style='display: flex; align-items: center; width:500px; height:200px; padding-left:10px;'><div style="margin-right: 5vh; ">
+      <a href="https://www.instagram.com/explore/tags/%E6%B5%85%E8%8D%89/" target="_blank">
+      <img style="display: inline-block; width:20vh; height:20vh; border-radius:50%;" src="./images/asakusa.jpg" alt="浅草"/></a></div>
+      <div style='position: reletive; bottom: 10px'><a href="https://www.gotokyo.org/kr/destinations/eastern-tokyo/asakusa/index.html" target="_blank" style='margin: 0; font-size: 25px; text-decoration: none;'>#浅草(Asakusa)</a><p>주소 : 〒111-0032 도쿄도 다이토구</p><p>아사쿠사는 옛 도쿄의 분위기를 간직하고 있는 지역으로 유서 깊은 센소지 인근의 나카미세 거리에는 전통적인 공예품점과 길거리 음식 노점이 있습니다. 아사쿠사를 방문하여, 일본의 전통, 예술, 공예품을 접해보세요!</p></div></div>`
+      // 아사쿠사
+    },
+    {
+      location: {
+        lat: 35.6594975,
+        lng: 139.6990039
+      },
+      iconImage: "./icons/photography.png",
+      content: 
+      `<div style='display: flex; align-items: center; width:500px; height:200px; padding-left:10px;'><div style="margin-right: 5vh; ">
+      <a href="https://www.instagram.com/explore/locations/2043173272649826/" target="_blank">
+      <img style="display: inline-block; width:20vh; height:20vh; border-radius:50%;" src="./images/crossing2.jpg" alt="渋谷スクランブル交差点"/></a></div>
+      <div style='position: reletive; bottom: 10px'><a href="https://en.japantravel.com/tokyo/shibuya-crossing/3016" target="_blank" style='margin: 0; font-size: 25px; text-decoration: none;'>#渋谷スクランブル交差点</a><p>주소 : 1 Chome-2-1 Dogenzaka, Shibuya City, Tokyo 150-0043 일본</p><p>도쿄의 상징적인 랜드마크 시부야 스크램블 교차로에서 한번에 1,000명 이상이 도로를 건너는 광경을 구경하세요. 도쿄 인구 최다 밀집지역을 카메라에 담을 수 있는 시부야의 대표 포토 스팟</p></div></div>`
+      // 시부야 교차로 
+    },
   ]
 
   // Loop through marker
