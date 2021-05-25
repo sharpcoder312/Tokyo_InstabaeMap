@@ -49,6 +49,13 @@ body {
   padding-left: 31px;
 }
 
+.copyright {
+  position: absolute;
+  bottom: 2px;
+  right: 2px;
+  font-size: 8px;
+}
+
 @media screen and (min-width: 768px) {
 
 
@@ -60,6 +67,10 @@ body {
     margin-right: 5px;
     width: 33px;
     height: 44px;
+  }
+
+  .copyright {
+    font-size: 12px;
   }
 }
 
