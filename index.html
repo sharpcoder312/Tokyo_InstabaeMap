@@ -6,18 +6,25 @@
   <meta name="viewport" content="initial-scale=1.0">
   <meta charset="utf-8">
 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
   <!-- Stylesheets. -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;500&family=Nanum+Myeongjo&family=Song+Myung&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:wght@400;500&Gothic+A1:wght@400;500&family=Nanum+Myeongjo&family=Song+Myung&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+  <header id="header">
+    <div class="titleBox"><img id="Tokyo_logo" src="./icons/tokyo.jpg"><div class="title">Tokyo</div></div>
+    <a id="link1" href="https://www.gotokyo.org/kr/index.html" target="_blank" >도쿄관광 공식사이트 바로가기 </a>
+  </header>
 
   <section class="map-location">
     <div class="map-position">
       <input class="form-control" id="search" type="text" placeholder="  어디를 찾으시나요?"/>
-      <div id="map" style="height: 70vh;"></div>
+      <div id="map"></div>
     </div>
   </section>
   <section class="infor">
@@ -37,6 +44,9 @@
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBxF2Ge6AM11gY78_Z-JVlMfysMVSyiz2I&callback=createMap&libraries=places"
     async defer></script>
   <script src="./markerclusterer.js"></script>
+
+  <script src="js/all.min.js"></script>
+  <script src="js/index.js"></script>
 </body>
 
 </html>
