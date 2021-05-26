@@ -262,7 +262,7 @@ function createMap () {
       </style>
       
       <div style='display: flex; align-items: center; width:80vh; height:27vh; padding-left:1.5vh; font-family:Gothic A1; font-weight:500'><div style="margin-right: 5vh; ">
-      <a href="https://www.instagram.com/_nem_coffee_espresso/" target="_blank" style="color: black">
+      <a href="https://www.instagram.com/explore/tags/nemcoffeeandespresso/" target="_blank" style="color: black">
       <img style="display: inline-block; width:20vh; height:20vh; border-radius:50%;" src="./images/nem.jpg" alt="ネムコーヒーア"/></a></div>
       <div style='position: reletive;'><a href="http://nem-coffee.com/" target="_blank" style='margin: 0; font-size: 1.8em; text-decoration: none;'>#Nem Coffee & Espresso</a><p>주소 : 4 Chome-5-6 Minamiazabu, Minato City, Tokyo 106-0047 일본</p><p>운영 시간 : 오후 08시 ~ 오후 5시(화요일 휴무)</p><p>전화번호 : +81 3-6886-4777</p></div></div>`
       // 네무커피 ネムコーヒーアンドエスプレッソ
