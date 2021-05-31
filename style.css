@@ -5,7 +5,7 @@
 
 body {
   height: 2000px;
-  font-family: 'Gothic A1', serif
+  font-family: "Gothic A1", serif;
 }
 
 a {
@@ -30,7 +30,7 @@ a {
 }
 
 /* 도쿄마크 및 제목 */
-header .titleBox { 
+header .titleBox {
   display: flex;
   position: relative;
   top: 15px;
@@ -51,11 +51,9 @@ header .titleBox img {
   position: relative;
   top: 10px;
   left: 230px;
-  font-family: 'Gothic A1';
+  font-family: "Gothic A1";
   font-size: 5px;
 }
-
-
 
 .map-position {
   text-align: center;
@@ -67,12 +65,12 @@ header .titleBox img {
 }
 
 #search {
-  font-family: 'Gothic A1', serif;
-  position: relative; 
-  width: 99%; 
-  height: 45px; 
-  margin-top: 10px; 
-  margin-bottom: 20px; 
+  font-family: "Gothic A1", serif;
+  position: relative;
+  width: 99%;
+  height: 45px;
+  margin-top: 10px;
+  margin-bottom: 20px;
   font-size: 15px;
 }
 
@@ -80,6 +78,7 @@ header .titleBox img {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+  font-family: "Gothic A1";
 }
 
 .markerInfo {
@@ -103,7 +102,6 @@ header .titleBox img {
 }
 
 @media screen and (min-width: 768px) {
-
   #search {
     font-size: 20px;
   }
@@ -127,13 +125,12 @@ header .titleBox img {
   * {
     font-size: 13px;
   }
-  
+
   .markerInfo.two img {
     padding-left: 8px;
   }
-  
+
   .markerInfo.three img {
     padding-left: 23px;
   }
 }
-
