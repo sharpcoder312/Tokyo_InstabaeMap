@@ -2,8 +2,8 @@ var map;
 
 function createMap () {
   var options = {
-    center: { lat: 35.6751184, lng: 139.744247 },
-    zoom: 12,
+    center: { lat: 35.6951184, lng: 139.744247 },
+    zoom: 11.5,
     styles: [
       {
           "featureType": "administrative.country",
@@ -402,7 +402,7 @@ function createMap () {
       <div style='display: flex; align-items: center; width:80vh; height:27vh; padding-left:1.5vh; font-family:Gothic A1; font-weight:500'><div style="margin-right: 5vh; ">
       <a href="https://www.instagram.com/explore/tags/afterhourscafe/" target="_blank">
       <img style="display: inline-block; width:20vh; height:20vh; border-radius:50%;" src="./images/after.jpg" alt="Afterhours"/></a></div>
-      <div style='position: reletive;'><a href="https://afterhours.jp/shop/" target="_blank" style='margin: 0; font-size: 1.8em; text-decoration: none;'>#Afterhours</a><p>주소 : 1 Chome-7-9 Tomigaya, Shibuya City, Tokyo 151-0063 일본</p><p>운영 시간 : 오후 12시 ~ 오후 5시</p><p>임시휴업 중</p></div></div>`
+      <div style='position: reletive;'><a href="https://afterhours.jp/shop/" target="_blank" style='margin: 0; font-size: 1.8em; text-decoration: none;'>#Afterhours</a><p>주소 : 1 Chome-7-9 Tomigaya, Shibuya City, Tokyo 151-0063 일본</p><p>운영 시간 : 오후 12시 ~ 오후 5시</p><p>임시 휴업 중</p></div></div>`
       // 애프터하우스
     },
     {
@@ -1301,6 +1301,121 @@ function createMap () {
       <img style="display: inline-block; width:20vh; height:20vh; border-radius:50%;" src="./images/dai.jpg" alt="代官山"/></a></div>
       <div style='position: reletive;'><a href="https://www.gotokyo.org/jp/destinations/western-tokyo/daikanyama/index.html" target="_blank" style='margin: 0; font-size: 1.8em; text-decoration: none;'>#代官山</a><p>주소 : 〒150-0034 도쿄도 시부야구</p><p>다이칸야마는 브루클린 느낌이 나는 스타일리시한 지역으로 수제 맥줏집, 커피 로스터, 고급 델리가 위치해 있습니다. 이곳에서는 디자이너 패션과 고급 액세서리 쇼핑을 즐길 수 있으며 갤러리이자 칵테일 바로도 운영되는 서점을 만나볼 수 있습니다.</p></div></div>`
       // 다이칸야마
+    },
+    {
+      location: {
+        lat: 35.6158389,
+        lng: 139.7777496
+      },
+      iconImage: "./icons/water2.png",
+      content: 
+      `
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;500display=swap" rel="stylesheet">
+      <style type="text/css">
+      a:link {text-decoration: none; color: black;}
+      a:visited {text-decoration: none; color: black;}
+      a:active {text-decoration: none; color: rgb(25, 197, 140);}
+      a:hover {text-decoration: underline; color: rgb(25, 197, 140);}
+      </style>
+
+      <div style='display: flex; align-items: center; width:80vh; height:27vh; padding-left:1.5vh; font-family:Gothic A1; font-weight:500'><div style="margin-right: 5vh; ">
+      <a href="https://www.instagram.com/explore/tags/%E5%A4%A7%E6%B1%9F%E6%88%B8%E6%B8%A9%E6%B3%89%E7%89%A9%E8%AA%9E/" target="_blank">
+      <img style="display: inline-block; width:20vh; height:20vh; border-radius:50%;" src="./images/oedo.jpg" alt="大江戸温泉物語"/></a></div>
+      <div style='position: reletive;'><a href="https://daiba.ooedoonsen.jp/" target="_blank" style='margin: 0; font-size: 1.8em; text-decoration: none;'>#大江戸温泉物語</a><p>주소 : 2 Chome-6-3 Aomi, Koto City, Tokyo 135-0064 일본</p>운영 시간 : 오전 11시 30분 ~ 오후 8시</p><p>전화번호 : +81 3-5500-1126</p></div></div>`
+      // 오에도온천
+    },
+    {
+      location: {
+        lat: 35.7068222,
+        lng: 139.7533496
+      },
+      iconImage: "./icons/water2.png",
+      content: 
+      `
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;500display=swap" rel="stylesheet">
+      <style type="text/css">
+      a:link {text-decoration: none; color: black;}
+      a:visited {text-decoration: none; color: black;}
+      a:active {text-decoration: none; color: rgb(25, 197, 140);}
+      a:hover {text-decoration: underline; color: rgb(25, 197, 140);}
+      </style>
+
+      <div style='display: flex; align-items: center; width:80vh; height:27vh; padding-left:1.5vh; font-family:Gothic A1; font-weight:500'><div style="margin-right: 5vh; ">
+      <a href="https://www.instagram.com/explore/tags/%E3%82%B9%E3%83%91%E3%83%A9%E3%82%AF%E3%83%BC%E3%82%A2/" target="_blank">
+      <img style="display: inline-block; width:20vh; height:20vh; border-radius:50%;" src="./images/laqua.jpg" alt="Spa LaQua"/></a></div>
+      <div style='position: reletive;'><a href="https://www.laqua.jp/spa/" target="_blank" style='margin: 0; font-size: 1.8em; text-decoration: none;'>#Spa LaQua</a><p>주소 : 일본 〒112-0003 Tokyo, Bunkyo City, Kasuga, 1 Chome−1−1 ラクーアビル</p>운영 시간 : 오전 10시 ~ 오후 9시</p><p>전화번호 : +81 3-5800-9999</p></div></div>`
+      // 스파라쿠아
+    },
+    {
+      location: {
+        lat: 35.6945342,
+        lng: 139.705114
+      },
+      iconImage: "./icons/water2.png",
+      content: 
+      `
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;500display=swap" rel="stylesheet">
+      <style type="text/css">
+      a:link {text-decoration: none; color: black;}
+      a:visited {text-decoration: none; color: black;}
+      a:active {text-decoration: none; color: rgb(25, 197, 140);}
+      a:hover {text-decoration: underline; color: rgb(25, 197, 140);}
+      </style>
+
+      <div style='display: flex; align-items: center; width:80vh; height:27vh; padding-left:1.5vh; font-family:Gothic A1; font-weight:500'><div style="margin-right: 5vh; ">
+      <a href="https://www.instagram.com/explore/tags/%E3%83%86%E3%83%AB%E3%83%9E%E3%83%BC%E6%B9%AF/" target="_blank">
+      <img style="display: inline-block; width:20vh; height:20vh; border-radius:50%;" src="./images/deruma.jpg" alt="テルマー湯"/></a></div>
+      <div style='position: reletive;'><a href="https://thermae-yu.jp/" target="_blank" style='margin: 0; font-size: 1.8em; text-decoration: none;'>#テルマー湯</a><p>주소 : 1 Chome-1-2 Kabukicho, Shinjuku City, Tokyo 160-0021 일본</p>임시 휴업중</p><p>전화번호 : +81 3-5285-1726</p></div></div>`
+      // 테루마 온천
+    },
+    {
+      location: {
+        lat: 35.7708822,
+        lng: 139.6926084
+      },
+      iconImage: "./icons/water2.png",
+      content: 
+      `
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;500display=swap" rel="stylesheet">
+      <style type="text/css">
+      a:link {text-decoration: none; color: black;}
+      a:visited {text-decoration: none; color: black;}
+      a:active {text-decoration: none; color: rgb(25, 197, 140);}
+      a:hover {text-decoration: underline; color: rgb(25, 197, 140);}
+      </style>
+
+      <div style='display: flex; align-items: center; width:80vh; height:27vh; padding-left:1.5vh; font-family:Gothic A1; font-weight:500'><div style="margin-right: 5vh; ">
+      <a href="https://www.instagram.com/explore/tags/%E3%81%95%E3%82%84%E3%81%AE%E6%B9%AF%E5%87%A6/" target="_blank">
+      <img style="display: inline-block; width:20vh; height:20vh; border-radius:50%;" src="./images/saya.jpg" alt="さやの湯処"/></a></div>
+      <div style='position: reletive;'><a href="https://www.sayanoyudokoro.co.jp/" target="_blank" style='margin: 0; font-size: 1.8em; text-decoration: none;'>#さやの湯処</a><p>주소 : 3 Chome-41-1 Maenocho, Itabashi City, Tokyo 174-0063 일본</p>임시 휴업중</p><p>전화번호 : +81 3-5916-3826</p></div></div>`
+      // 사야노유도코로
+    },
+    {
+      location: {
+        lat: 35.7048241,
+        lng: 139.6183801
+      },
+      iconImage: "./icons/water2.png",
+      content: 
+      `
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;500display=swap" rel="stylesheet">
+      <style type="text/css">
+      a:link {text-decoration: none; color: black;}
+      a:visited {text-decoration: none; color: black;}
+      a:active {text-decoration: none; color: rgb(25, 197, 140);}
+      a:hover {text-decoration: underline; color: rgb(25, 197, 140);}
+      </style>
+
+      <div style='display: flex; align-items: center; width:80vh; height:27vh; padding-left:1.5vh; font-family:Gothic A1; font-weight:500'><div style="margin-right: 5vh; ">
+      <a href="https://www.instagram.com/explore/tags/%E3%81%AA%E3%81%94%E3%81%BF%E3%81%AE%E6%B9%AF/" target="_blank">
+      <img style="display: inline-block; width:20vh; height:20vh; border-radius:50%;" src="./images/nagomi.jpg" alt="なごみの湯"/></a></div>
+      <div style='position: reletive;'><a href="https://www.nagomino-yu.com/" target="_blank" style='margin: 0; font-size: 1.8em; text-decoration: none;'>#なごみの湯</a><p>주소 : 1 Chome-10-10 Kamiogi, Suginami City, Tokyo 167-0043 일본</p>영업 시간 : 오전 11시30분 ~ 오후 10시</p><p>전화번호 : +81 3-3398-4126</p></div></div>`
+      // 나고미
     },
   ]
 
