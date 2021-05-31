@@ -4,7 +4,7 @@
 }
 
 body {
-  height: 2000px;
+  height: 850px;
   font-family: "Gothic A1", serif;
 }
 
@@ -48,14 +48,16 @@ header .titleBox img {
 }
 /* 도쿄사이트 바로가기 */
 #link1 {
-  position: relative;
-  top: 10px;
-  left: 230px;
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
   font-family: "Gothic A1";
   font-size: 5px;
 }
 
 .map-position {
+  position: relative;
+  top: 100px;
   text-align: center;
 }
 
@@ -65,16 +67,18 @@ header .titleBox img {
 }
 
 #search {
-  font-family: "Gothic A1", serif;
+  font-weight: 500;
   position: relative;
-  width: 99%;
+  width: 95%;
   height: 45px;
   margin-top: 10px;
   margin-bottom: 20px;
-  font-size: 15px;
+  font-size: 12px;
 }
 
 .information {
+  position: relative;
+  top: 100px;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -102,10 +106,33 @@ header .titleBox img {
 }
 
 @media screen and (min-width: 768px) {
+  #header {
+    height: 120px;
+  }
+  /* 도쿄마크 */
+  header .titleBox img {
+    width: 80px;
+  }
+  /* 제목 */
+  .title {
+    padding-top: 22px;
+    font-size: 50px;
+  }
+  /* 도쿄사이트 바로가기 */
+  #link1 {
+    bottom: 8px;
+    right: 15px;
+    font-size: 15px;
+  }
+  .map-position {
+    top: 150px;
+  }
   #search {
     font-size: 20px;
   }
-
+  .information {
+    top: 150px;
+  }
   .markerInfo {
     flex-direction: row;
   }
@@ -114,6 +141,10 @@ header .titleBox img {
     margin-right: 5px;
     width: 33px;
     height: 44px;
+  }
+
+  .markerInfo p {
+    line-height: 4em;
   }
 
   .copyright {

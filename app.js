@@ -1307,7 +1307,7 @@ function createMap () {
         lat: 35.6158389,
         lng: 139.7777496
       },
-      iconImage: "./icons/water2.png",
+      iconImage: "./icons/water.png",
       content: 
       `
       <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -1330,7 +1330,7 @@ function createMap () {
         lat: 35.7068222,
         lng: 139.7533496
       },
-      iconImage: "./icons/water2.png",
+      iconImage: "./icons/water.png",
       content: 
       `
       <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -1353,7 +1353,7 @@ function createMap () {
         lat: 35.6945342,
         lng: 139.705114
       },
-      iconImage: "./icons/water2.png",
+      iconImage: "./icons/water.png",
       content: 
       `
       <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -1376,7 +1376,7 @@ function createMap () {
         lat: 35.7708822,
         lng: 139.6926084
       },
-      iconImage: "./icons/water2.png",
+      iconImage: "./icons/water.png",
       content: 
       `
       <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -1399,7 +1399,7 @@ function createMap () {
         lat: 35.7048241,
         lng: 139.6183801
       },
-      iconImage: "./icons/water2.png",
+      iconImage: "./icons/water.png",
       content: 
       `
       <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -1417,6 +1417,122 @@ function createMap () {
       <div style='position: reletive;'><a href="https://www.nagomino-yu.com/" target="_blank" style='margin: 0; font-size: 1.8em; text-decoration: none;'>#なごみの湯</a><p>주소 : 1 Chome-10-10 Kamiogi, Suginami City, Tokyo 167-0043 일본</p>영업 시간 : 오전 11시30분 ~ 오후 10시</p><p>전화번호 : +81 3-3398-4126</p></div></div>`
       // 나고미
     },
+    {
+      location: {
+        lat: 35.6855071,
+        lng: 139.6907043
+      },
+      iconImage: "./icons/bar.png",
+      content: 
+      `
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;500display=swap" rel="stylesheet">
+      <style type="text/css">
+      a:link {text-decoration: none; color: black;}
+      a:visited {text-decoration: none; color: black;}
+      a:active {text-decoration: none; color: rgb(25, 197, 140);}
+      a:hover {text-decoration: underline; color: rgb(25, 197, 140);}
+      </style>
+
+      <div style='display: flex; align-items: center; width:80vh; height:27vh; padding-left:1.5vh; font-family:Gothic A1; font-weight:500'><div style="margin-right: 5vh; ">
+      <a href="https://www.instagram.com/explore/tags/%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%A8%E3%83%BC%E3%82%AF%E3%83%90%E3%83%BC/" target="_blank">
+      <img style="display: inline-block; width:20vh; height:20vh; border-radius:50%;" src="./images/newyork.jpg" alt="ニューヨーク バー"/></a></div>
+      <div style='position: reletive;'><a href="https://restaurants.tokyo.park.hyatt.co.jp/nyb.html" target="_blank" style='margin: 0; font-size: 1.8em; text-decoration: none;'>#ニューヨーク バー</a><p>주소 : パーク ハイアット 東京 52階, 3-7-1-2, Nishishinjuku, Tokyo 163-1055 일본</p>영업 시간 : 오후 5시 ~ 오후 8시</p><p>전화번호 : +81 3-5323-3458</p></div></div>`
+      // 뉴욕바
+    },
+    {
+      location: {
+        lat: 35.6579837,
+        lng: 139.7050013
+      },
+      iconImage: "./icons/bar.png",
+      content: 
+      `
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;500display=swap" rel="stylesheet">
+      <style type="text/css">
+      a:link {text-decoration: none; color: black;}
+      a:visited {text-decoration: none; color: black;}
+      a:active {text-decoration: none; color: rgb(25, 197, 140);}
+      a:hover {text-decoration: underline; color: rgb(25, 197, 140);}
+      </style>
+
+      <div style='display: flex; align-items: center; width:80vh; height:27vh; padding-left:1.5vh; font-family:Gothic A1; font-weight:500'><div style="margin-right: 5vh; ">
+      <a href="https://www.instagram.com/explore/tags/%E7%9F%B3%E3%81%AE%E8%8F%AF/" target="_blank">
+      <img style="display: inline-block; width:20vh; height:20vh; border-radius:50%;" src="./images/isino.jpg" alt="石の華"/></a></div>
+      <div style='position: reletive;'><a href="https://ishinohana.com/" target="_blank" style='margin: 0; font-size: 1.8em; text-decoration: none;'>#石の華</a><p>주소 : 일본 〒150-0002 Tokyo, Shibuya City, Shibuya, 3 Chome−6−2 第2矢木ビル</p>영업 시간 : 오후 5시 ~ 오후 8시</p><p>전화번호 : +81 3-5485-8405</p></div></div>`
+      // 이시노하나
+    },
+    {
+      location: {
+        lat: 35.6713997,
+        lng: 139.7611564
+      },
+      iconImage: "./icons/bar.png",
+      content: 
+      `
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;500display=swap" rel="stylesheet">
+      <style type="text/css">
+      a:link {text-decoration: none; color: black;}
+      a:visited {text-decoration: none; color: black;}
+      a:active {text-decoration: none; color: rgb(25, 197, 140);}
+      a:hover {text-decoration: underline; color: rgb(25, 197, 140);}
+      </style>
+
+      <div style='display: flex; align-items: center; width:80vh; height:27vh; padding-left:1.5vh; font-family:Gothic A1; font-weight:500'><div style="margin-right: 5vh; ">
+      <a href="https://www.instagram.com/explore/tags/bar%E4%BF%9D%E5%BF%97/" target="_blank">
+      <img style="display: inline-block; width:20vh; height:20vh; border-radius:50%;" src="./images/hoshi.png" alt="保志"/></a></div>
+      <div style='position: reletive;'><a href="https://www.instagram.com/barhoshi/" target="_blank" style='margin: 0; font-size: 1.8em; text-decoration: none;'>#bar 保志</a><p>주소 : 6 Chome-3-7 Ginza, Chuo City, Tokyo 104-0061 일본</p>임시 휴업중</p><p>전화번호 : +81 3-3573-8887</p></div></div>`
+      // 호시
+    },
+    {
+      location: {
+        lat: 35.6642398,
+        lng: 139.6992572
+      },
+      iconImage: "./icons/bar.png",
+      content: 
+      `
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;500display=swap" rel="stylesheet">
+      <style type="text/css">
+      a:link {text-decoration: none; color: black;}
+      a:visited {text-decoration: none; color: black;}
+      a:active {text-decoration: none; color: rgb(25, 197, 140);}
+      a:hover {text-decoration: underline; color: rgb(25, 197, 140);}
+      </style>
+
+      <div style='display: flex; align-items: center; width:80vh; height:27vh; padding-left:1.5vh; font-family:Gothic A1; font-weight:500'><div style="margin-right: 5vh; ">
+      <a href="https://www.instagram.com/explore/tags/thesgclub/" target="_blank">
+      <img style="display: inline-block; width:20vh; height:20vh; border-radius:50%;" src="./images/sg.jpg" alt="thesgclub"/></a></div>
+      <div style='position: reletive;'><a href="https://sg-management.jp/?fbclid=IwAR30J7plQ1wUCseA6PUMhXz16DaVS49yt2GNt4GPv6C18kw_KHTRnyTccUo" target="_blank" style='margin: 0; font-size: 1.8em; text-decoration: none;'>#The SG Club</a><p>주소 : 1 Chome-7-8 Jinnan, Shibuya City, Tokyo 150-0041 일본</p>영업 시간 : 오후 5시 ~ 오후 8시</p><p>전화번호 : +81 3-6427-0204</p></div></div>`
+      // sg club
+    },
+    {
+      location: {
+        lat: 35.6689597,
+        lng: 139.7619587
+      },
+      iconImage: "./icons/bar.png",
+      content: 
+      `
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;500display=swap" rel="stylesheet">
+      <style type="text/css">
+      a:link {text-decoration: none; color: black;}
+      a:visited {text-decoration: none; color: black;}
+      a:active {text-decoration: none; color: rgb(25, 197, 140);}
+      a:hover {text-decoration: underline; color: rgb(25, 197, 140);}
+      </style>
+
+      <div style='display: flex; align-items: center; width:800px; height:27vh; padding-left:1.5vh; font-family:Gothic A1; font-weight:500;'><div style="margin-right: 5vh; ">
+      <a href="https://www.instagram.com/explore/tags/ginzamusicbar/" target="_blank">
+      <img style="display: inline-block; width:20vh; height:20vh; border-radius:50%;" src="./images/ginzamusic.jpeg" alt="ginzamusic"/></a></div>
+      <div style='position: reletive;'><a href="http://ginzamusicbar.com/" target="_blank" style='margin: 0; font-size: 1.8em; text-decoration: none;'>#GINZA MUSIC BAR</a><p>주소 : 일본 〒104-0061 Tokyo, Chuo City, Ginza, 7 Chome−8−13 ブラウン プレイス 4F</p>영업 시간 : 오후 12시 ~ 오후 8시</p><p>전화번호 : +81 3-3572-3666</p></div></div>`
+      // ginza music
+    },
+
   ]
 
   // Loop through marker
