@@ -4,7 +4,7 @@
 }
 
 body {
-  height: 850px;
+  height: auto;
   font-family: "Gothic A1", serif;
 }
 
@@ -55,13 +55,14 @@ header .titleBox img {
   font-size: 5px;
 }
 
+/* slide */
 .st1 {
   position: relative;
   top: 130px;
   clear: both;
   height: 150px;
   width: 74%;
-  margin: 0 auto 100px auto;
+  margin: 0 auto 190px auto;
   font-size: 5px;
   font-family: Newsreader;
 }
@@ -116,9 +117,9 @@ header .titleBox img {
   transform: scale(0.95);
 }
 
+/* map */
 .map-position {
-  position: relative;
-  top: 80px;
+  margin-bottom: 15x;
   text-align: center;
 }
 
@@ -139,7 +140,6 @@ header .titleBox img {
 
 .information {
   position: relative;
-  top: 80px;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -161,15 +161,15 @@ header .titleBox img {
 
 @media screen and (min-width: 768px) {
   #header {
-    height: 120px;
+    height: 170px;
   }
   /* 도쿄마크 */
   header .titleBox img {
-    width: 80px;
+    width: 120px;
   }
   /* 제목 */
   .title {
-    padding-top: 22px;
+    padding-top: 42px;
     font-size: 50px;
   }
   /* 도쿄사이트 바로가기 */
@@ -178,14 +178,40 @@ header .titleBox img {
     right: 15px;
     font-size: 15px;
   }
+
+  .st1 {
+    position: relative;
+    top: 300px;
+    height: 150px;
+    width: 74%;
+    font-size: 5px;
+    font-family: Newsreader;
+    margin-bottom: 550px;
+  }
+  .st1 .bx-prev,
+  .st1 .bx-next {
+    top: 120%;
+    transform: translateY(150%);
+    font-size: 5em;
+  }
+
+  .st1 .bx-prev {
+    right: calc(100% + (-25px));
+  }
+
+  .st1 .bx-next {
+    left: calc(100% + (-25px));
+  }
+  #slider_menu {
+    padding: 10px;
+    font-size: 20px;
+  }
+
   .map-position {
-    top: 150px;
+    margin-bottom: 20px;
   }
   #search {
     font-size: 20px;
-  }
-  .information {
-    top: 150px;
   }
   .markerInfo {
     flex-direction: row;
@@ -202,9 +228,38 @@ header .titleBox img {
   }
 }
 
+@media screen and (min-width: 1024px) {
+  .st1 {
+    margin-bottom: 600px;
+  }
+}
+
+@media screen and (min-width: 1140px) {
+  .st1 {
+    margin-bottom: 800px;
+  }
+}
+
 @media screen and (max-width: 280px) {
   * {
-    font-size: 13px;
+    font-size: 10px;
+  }
+  .st1 .bx-prev,
+  .st1 .bx-next {
+    top: 50%;
+    transform: translateY(-250%);
+    font-size: 1em;
+  }
+
+  .st1 .bx-prev {
+    right: calc(100% + (-10px));
+  }
+
+  .st1 .bx-next {
+    left: calc(100% + (-10px));
+  }
+  #slider_menu {
+    font-size: 10px;
   }
 
   .markerInfo.two img {
