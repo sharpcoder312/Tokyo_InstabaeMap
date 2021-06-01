@@ -38,6 +38,7 @@ header .titleBox {
 /* 도쿄마크 */
 header .titleBox img {
   width: 45px;
+  height: auto;
 }
 /* 제목 */
 .title {

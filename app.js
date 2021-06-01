@@ -540,7 +540,7 @@ function createMap () {
       <div style='display: flex; align-items: center; width:80vh; height:27vh; padding-left:1.5vh; font-family:Gothic A1; font-weight:500'><div style="margin-right: 5vh; ">
       <a href="https://www.instagram.com/explore/tags/%E6%AD%8C%E8%88%9E%E4%BC%8E%E7%94%BA%E4%B8%80%E7%95%AA%E8%A1%97/" target="_blank">
       <img style="display: inline-block; width:20vh; height:20vh; border-radius:50%;" src="./images/kabuki.jpg" alt="歌舞伎町"/></a></div>
-      <div style='position: reletive;'><a href="" target="_blank" style='margin: 0; font-size: 1.8em; text-decoration: none;'>#歌舞伎町(Kabukicho)</a><p style='margin-bottom: 3px'>주소 : 〒160-0021 도쿄도 신주쿠구</p><p>가부키쵸는 밤문화를 즐기기 위한 스폿이 수많이 존재하며, 거리가 밤부터 활기를 띄어서 사람들이 「잠들지 않는 거리」라고 부르고 있습니다.</p></div></div>`
+      <div style='position: reletive;'><a href="http://www.kabukicho.or.jp/" target="_blank" style='margin: 0; font-size: 1.8em; text-decoration: none;'>#歌舞伎町(Kabukicho)</a><p style='margin-bottom: 3px'>주소 : 〒160-0021 도쿄도 신주쿠구</p><p>가부키쵸는 밤문화를 즐기기 위한 스폿이 수많이 존재하며, 거리가 밤부터 활기를 띄어서 사람들이 「잠들지 않는 거리」라고 부르고 있습니다.</p></div></div>`
       // 가부키초
     },
     {
@@ -954,8 +954,8 @@ function createMap () {
       <div style='display: flex; align-items: center; width:80vh; height:27vh; padding-left:1.5vh; font-family:Gothic A1; font-weight:500'><div style="margin-right: 5vh; ">
       <a href="https://www.instagram.com/explore/tags/angelcrepes/" target="_blank">
       <img style="display: inline-block; width:20vh; height:20vh; border-radius:50%;" src="./images/heart.jpg" alt="Angel Crepes"/></a></div>
-      <div style='position: reletive;'><a href="" target="_blank" style='margin: 0; font-size: 1.8em; text-decoration: none;'>#Angel Crepes</a><p style='margin-bottom: 3px'>주소 : 1 Chome-16-9 Jingumae, Shibuya City, Tokyo 150-0001 일본</p><p style='margin-bottom: 3px'>운영 시간 : 오전 10시 ~ 오후 9시</p><p>전화번호 : +81 3-6804-5139</p></div></div>`
-      // 엔젤하트
+      <div style='position: reletive;'><a href="http://www.angelsrecipeicecream.com/menu" target="_blank" style='margin: 0; font-size: 1.8em; text-decoration: none;'>#Angel Crepes</a><p style='margin-bottom: 3px'>주소 : 1 Chome-16-9 Jingumae, Shibuya City, Tokyo 150-0001 일본</p><p style='margin-bottom: 3px'>운영 시간 : 오전 10시 ~ 오후 9시</p><p>전화번호 : +81 3-6804-5139</p></div></div>`
+      // 엔젤크레페
     },
     {
       location: {
