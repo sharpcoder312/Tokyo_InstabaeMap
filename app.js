@@ -1344,7 +1344,7 @@ function createMap () {
 
       <div style='display: flex; align-items: center; width:80vh; height:27vh; padding-left:1.5vh; font-family:Gothic A1; font-weight:500'><div style="margin-right: 5vh; ">
       <a href="https://www.instagram.com/explore/tags/%E5%A4%A7%E6%B1%9F%E6%88%B8%E6%B8%A9%E6%B3%89%E7%89%A9%E8%AA%9E/" target="_blank">
-      <img style="display: inline-block; width:20vh; height:20vh; border-radius:50%;" src="./images/onsen.jpg" alt=""/></a></div>
+      <img style="display: inline-block; width:20vh; height:20vh; border-radius:50%;" src="https://cp.jorudan.co.jp/delivery/cpimage/TRV00009/201010051823029.jpg" alt="大江戸温泉物語"/></a></div>
       <div style='position: reletive;'><a href="https://daiba.ooedoonsen.jp/" target="_blank" style='margin: 0; font-size: 1.8em; text-decoration: none;'>#大江戸温泉物語</a><p style='margin-bottom: 3px'>주소 : 2 Chome-6-3 Aomi, Koto City, Tokyo 135-0064 일본</p><p style='margin-bottom: 3px'>운영 시간 : 오전 11시 30분 ~ 오후 8시</p><p>전화번호 : +81 3-5500-1126</p></div></div>`
       // 오에도
     },
