@@ -53,21 +53,6 @@ document.addEventListener('scroll', () => {
 });
 
 
-const arrowUp = document.querySelector('.arrow-up');
-document.addEventListener('scroll', () => {
-    if (window.scrollY > navbarHeight / 2) {
-        arrowUp.classList.add('visible');
-    } else {
-        arrowUp.classList.remove('visible');
-    }
-});
-
-arrowUp.addEventListener('click', () => {
-    const scrollTo = document.querySelector('#banner');
-    scrollTo.scrollIntoView({ behavior: 'smooth' });
-});
-
-
 
 
 

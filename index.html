@@ -11,7 +11,7 @@
 
   <!-- Stylesheets. -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Newsreader:wght@400;500&Gothic+A1:wght@400;500&family=Nanum+Myeongjo&family=Song+Myung&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Kosugi&family=Newsreader:wght@400;500&Gothic+A1:wght@400;500&family=Nanum+Myeongjo&family=Song+Myung&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -21,24 +21,61 @@
     <a id="link1" href="https://www.gotokyo.org/kr/index.html" target="_blank" >도쿄관광 공식사이트 바로가기 </a>
   </header>
 
-  <section class="map-location">
+  <section class="st1">
+    <div class="slider">
+        <div class="control_slider">
+            <a href="https://www.instagram.com/explore/tags/%E3%81%8A%E5%8F%B0%E5%A0%B4%E6%B5%B7%E6%B5%9C%E5%85%AC%E5%9C%92/">
+                <div id="hover__border"></div><img src="images/slide2.JPG" alt="">
+                <p id="slider_menu" style="font-family:Kosugi">皇居二重橋</p>
+            </a>
+        </div>
+        <div class="control_slider">
+            <a href="https://www.instagram.com/explore/tags/%E6%9D%B1%E4%BA%AC%E3%82%BF%E3%83%AF%E3%83%BC/">
+                <div id="hover__border"></div><img src="images/slide1.JPG" alt="tokyo tower">
+                <p id="slider_menu" style="font-family:Kosugi">東京タワー</p>
+            </a>
+        </div>
+        <div class="control_slider">
+            <a href="https://www.instagram.com/explore/tags/%E7%9A%87%E5%B1%85/">
+                <div id="hover__border"></div><img src="images/slide5.JPG" alt="">
+                <p id="slider_menu" style="font-family:Kosugi">お台場<br/>海浜公園</p>
+            </a>
+        </div>
+        <div class="control_slider">
+            <a href="https://www.instagram.com/explore/locations/281969668893642/small-worlds-tokyo-/">
+                <div id="hover__border"></div><img src="images/slide3.JPG" alt="">
+                <p id="slider_menu" style="font-family:Newsreader">Small Worlds Tokyo</p>
+            </a>
+        </div>
+        <div class="control_slider">
+            <a href="https://www.instagram.com/zakuro_tokyo/">
+                <div id="hover__border"></div><img src="images/slide4.JPG" alt="">
+                <p id="slider_menu" style="font-family:Kosugi; letter-spacing :-0.1em;">ザクロレストラン</p>
+            </a>
+        </div>
+    </div>
+  </section>
+
+  <section class="st2">
     <div class="map-position">
       <input class="form-control" id="search" type="text" placeholder="  어디를 찾으시나요?"/>
       <div id="map"></div>
     </div>
   </section>
+  
   <section class="infor">
     <div class="information">
+      <div class="markerInfo"><img src="./icons/museums.png" alt=""><p> 사찰 및 신사</p></div>
       <div class="markerInfo"><img src="./icons/default.png" alt=""><p> 명소</p></div>
       <div class="markerInfo"><img src="./icons/photography.png" alt=""><p> 포토존</p></div>
-      <div class="markerInfo"><img src="./icons/museums.png" alt=""><p> 사찰 및 신사</p></div>
       <div class="markerInfo"><img src="./icons/water.png" alt=""><p> 온천</p></div>
       <div class="markerInfo"><img src="./icons/cafe.png" alt=""><p> 카페</p></div>
       <div class="markerInfo"><img src="./icons/restaurants.png" alt=""><p> 식당</p></div>
       <div class="markerInfo"><img src="./icons/bar.png" alt=""><p>술집</p></div>
     </div>
   </section>
-  <p class="copyright">Copyright 2021. 상언 Co. all rights reserved.</p>
+
+
 
   <!-- Google Maps scripts. -->
   <script src="app.js"></script>
