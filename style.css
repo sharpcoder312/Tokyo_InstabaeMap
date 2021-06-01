@@ -38,7 +38,7 @@ header .titleBox {
 /* 도쿄마크 */
 header .titleBox img {
   width: 45px;
-  height: auto;
+  height: 45px;
 }
 /* 제목 */
 .title {
@@ -210,6 +210,7 @@ header .titleBox img {
   /* 도쿄마크 */
   header .titleBox img {
     width: 120px;
+    height: 120px;
   }
   /* 제목 */
   .title {
