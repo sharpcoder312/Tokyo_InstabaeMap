@@ -143,6 +143,7 @@ header .titleBox img {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+  margin-bottom: 50px;
   font-family: "Gothic A1";
 }
 
@@ -157,6 +158,48 @@ header .titleBox img {
   margin: 0 auto 8px;
   width: 22px;
   height: 33px;
+}
+
+/* footer */
+.footer {
+  display: flex;
+  flex-direction: column;
+  padding-right: 5px;
+  align-items: flex-end;
+  background-color: #efefef;
+  font-family: "Gothic A1";
+}
+
+#footer1 {
+  margin-top: 5px;
+  text-align: right;
+}
+#one1 {
+  font-size: 10px;
+  color: #572a31;
+}
+#two1 {
+  font-size: 20px;
+  color: #572a31;
+}
+
+#footer2 {
+  margin-top: 10px;
+  text-align: right;
+}
+#one2 {
+  padding-bottom: 2px;
+  font-size: 10px;
+  color: gray;
+}
+#two2 {
+  font-size: 12px;
+  color: gray;
+}
+
+#footer0 {
+  margin-top: 12px;
+  text-align: right;
 }
 
 @media screen and (min-width: 768px) {
@@ -178,7 +221,12 @@ header .titleBox img {
     right: 15px;
     font-size: 15px;
   }
-
+  #map {
+    height: 600px;
+  }
+  .information {
+    margin-bottom: 80px;
+  }
   .st1 {
     position: relative;
     top: 300px;
@@ -226,11 +274,72 @@ header .titleBox img {
   .markerInfo p {
     line-height: 4em;
   }
+
+  /* footer */
+  .footer {
+    padding-right: 15px;
+  }
+  #footer0 {
+    margin-top: 15px;
+  }
+  #footer1 {
+    margin-top: 10px;
+  }
+  #one1 {
+    font-size: 15px;
+  }
+  #two1 {
+    font-size: 30px;
+  }
+
+  #footer2 {
+    margin-top: 15px;
+  }
+  #one2 {
+    font-size: 15px;
+    padding-bottom: 5px;
+  }
+  #two2 {
+    font-size: 12px;
+    color: gray;
+  }
 }
 
 @media screen and (min-width: 1024px) {
   .st1 {
     margin-bottom: 600px;
+  }
+  #map {
+    height: 700px;
+  }
+  .information {
+    margin-bottom: 180px;
+  }
+  /* footer */
+  .footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  #footer1 {
+    margin-top: 10px;
+  }
+  #one1 {
+    font-size: 15px;
+  }
+  #two1 {
+    font-size: 30px;
+  }
+
+  #footer2 {
+    margin-top: 15px;
+  }
+  #one2 {
+    font-size: 15px;
+    padding-bottom: 5px;
+  }
+  #two2 {
+    font-size: 12px;
+    color: gray;
   }
 }
 
