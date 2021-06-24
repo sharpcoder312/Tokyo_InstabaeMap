@@ -2,7 +2,7 @@
 
 크롤링을 통한 SNS 데이터 분석모델을 확보하여 '도쿄'에서 인스타그램 해시태그로 가장 많이 언급된 관광지들을 지도에 구현한 프로젝트입니다. (2021/06/01 기준)
 
-[README.md](https://github.com/sharpcoder312/Tokyo_InstabaeMap/files/6711101/README.md)
+![screenshot](https://user-images.githubusercontent.com/73876068/123307979-128ffb00-d55e-11eb-8ad6-7925cd1e7b5a.PNG)
 
 + 사용 API
   + Maps JavaScript API
